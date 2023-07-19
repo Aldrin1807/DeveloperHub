@@ -18,19 +18,19 @@
                     Log into your account to unlock true power of community.
                 </div>
             </a>
-            <form class="form-default">
+            <form class="form-default" asp-action="Login">
                 <div class="form-group">
                     <label asp-for="Username_or_Email">Username or Email</label>
-                    <input asp-for="Username_or_Email" type="text" name="name" class="form-control" id="loginUserName" placeholder="azyrusmax">
+                    <input asp-for="Username_or_Email" type="text" class="form-control" id="loginUserName" placeholder="azyrusmax">
                     <span asp-validation-for="Username_or_Email" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Password">Password</label>
-                    <input asp-for="Password" type="password" name="name" class="form-control" id="loginUserPassword" placeholder="************">
+                    <input asp-for="Password" type="password" class="form-control" id="loginUserPassword" placeholder="************">
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <a href="#" class="btn btn-secondary btn-block" type="submit">Log in</a>
+                    <button  class="btn btn-secondary btn-block" type="submit">Log in</button>
                 </div>
                 <p>Don’t have an account? <a asp-controller="Auth" asp-action="Signup" class="tt-underline">Signup here</a></p>
                 <div class="tt-notes">
@@ -41,3 +41,5 @@
         </div>
     </div>
 </div>
+
+
