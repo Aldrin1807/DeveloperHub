@@ -9,18 +9,6 @@
 <div class="container">
     <div class="tt-loginpages-wrapper">
         <div class="tt-loginpages">
-            @if (TempData["Error"] != null)
-            {
-                <div class="col-md-12 alert alert-danger">
-                    <span><b>Sorry!</b> - @TempData["Error"] </span>
-                </div>
-            }
-            @if (TempData["UserRegistered"] != null)
-            {
-                <div class="col-md-12 alert alert-danger">
-                    <span><b>Let's go!</b> - @TempData["UserRegistered"] </span>
-                </div>
-            }
             <a href="index.html" class="tt-block-title">
                 <img src="images/logo.png" alt="">
                 <div class="tt-title">
@@ -30,6 +18,12 @@
                     Join the forum to unlock true power of community.
                 </div>
             </a>
+            @if (TempData["Error"] != null)
+            {
+                <div class="col-md-12 alert alert-danger">
+                    <span><b>Sorry!</b> - @TempData["Error"] </span>
+                </div>
+            }
             <form class="form-default" asp-action="Signup">
                 <div class="form-group">
                     <label asp-for="Username">Username</label>

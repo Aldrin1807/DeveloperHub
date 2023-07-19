@@ -9,6 +9,7 @@
 <div class="container">
     <div class="tt-loginpages-wrapper">
         <div class="tt-loginpages">
+            
             <a href="index.html" class="tt-block-title">
                 <img src="images/logo.png" alt="">
                 <div class="tt-title">
@@ -18,6 +19,12 @@
                     Log into your account to unlock true power of community.
                 </div>
             </a>
+            @if (TempData["Error"] != null)
+            {
+                <div class="col-md-12 alert alert-danger">
+                    <span><b>Sorry!</b> - @TempData["Error"] </span>
+                </div>
+            }
             <form class="form-default" asp-action="Login">
                 <div class="form-group">
                     <label asp-for="Username_or_Email">Username or Email</label>

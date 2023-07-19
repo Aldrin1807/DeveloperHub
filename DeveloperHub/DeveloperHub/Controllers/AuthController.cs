@@ -3,6 +3,7 @@ using DeveloperHub.Data.DTOs;
 using DeveloperHub.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Win32;
 
 namespace DeveloperHub.Controllers
 {
@@ -28,6 +29,29 @@ namespace DeveloperHub.Controllers
         {
             return View(new Login());
         }
+        [HttpPost]
+        public async Task<IActionResult> Login(Login login)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(login);
+            }
+
+            var user = await _userManager.FindByEmailAsync(login.Username_or_Email);
+            if (user == null)
+            {
+                user = await _userManager.FindByNameAsync(login.Username_or_Email);
+            }
+            if (user == null)
+            {
+                TempData["Error"] = "User with this username or email does not exist";
+                return View(login);
+            }
+            return View(login);
+        }
+
+
+
 
 
         public async Task<IActionResult> Signup()
