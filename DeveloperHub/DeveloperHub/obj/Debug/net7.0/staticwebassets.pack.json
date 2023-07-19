@@ -1,0 +1,393 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DeveloperHub.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DeveloperHub.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\external\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\external\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\external\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\external\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\js\\bundle.js",
+      "PackagePath": "staticwebassets\\js\\bundle.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\js\\bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bundle.min.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_btn-create-topic.scss",
+      "PackagePath": "staticwebassets\\scss\\_btn-create-topic.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_categories_list.scss",
+      "PackagePath": "staticwebassets\\scss\\_categories_list.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_categories_single.scss",
+      "PackagePath": "staticwebassets\\scss\\_categories_single.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_custom_magnific_popup.scss",
+      "PackagePath": "staticwebassets\\scss\\_custom_magnific_popup.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_default_tabs.scss",
+      "PackagePath": "staticwebassets\\scss\\_default_tabs.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_editor.scss",
+      "PackagePath": "staticwebassets\\scss\\_editor.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_followers_list.scss",
+      "PackagePath": "staticwebassets\\scss\\_followers_list.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_form.scss",
+      "PackagePath": "staticwebassets\\scss\\_form.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_gallery.scss",
+      "PackagePath": "staticwebassets\\scss\\_gallery.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\_header.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_header_objects.scss",
+      "PackagePath": "staticwebassets\\scss\\_header_objects.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_layout-tab.scss",
+      "PackagePath": "staticwebassets\\scss\\_layout-tab.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_layout404.scss",
+      "PackagePath": "staticwebassets\\scss\\_layout404.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_login.scss",
+      "PackagePath": "staticwebassets\\scss\\_login.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_messages_layout.scss",
+      "PackagePath": "staticwebassets\\scss\\_messages_layout.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_mobile-menu.scss",
+      "PackagePath": "staticwebassets\\scss\\_mobile-menu.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_pageContent.scss",
+      "PackagePath": "staticwebassets\\scss\\_pageContent.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_popup_settings.scss",
+      "PackagePath": "staticwebassets\\scss\\_popup_settings.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_single-topic.scss",
+      "PackagePath": "staticwebassets\\scss\\_single-topic.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_topic_list_item.scss",
+      "PackagePath": "staticwebassets\\scss\\_topic_list_item.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\_typography.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_user_header.scss",
+      "PackagePath": "staticwebassets\\scss\\_user_header.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\DeveloperHub\\DeveloperHub\\DeveloperHub\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DeveloperHub.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DeveloperHub.props",
+      "PackagePath": "build\\DeveloperHub.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DeveloperHub.props",
+      "PackagePath": "buildMultiTargeting\\DeveloperHub.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DeveloperHub.props",
+      "PackagePath": "buildTransitive\\DeveloperHub.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

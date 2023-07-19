@@ -6,30 +6,135 @@
     <title>@ViewData["Title"] - DeveloperHub</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="~/DeveloperHub.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DeveloperHub</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+    <!-- tt-mobile menu -->
+    <nav class="panel-menu" id="mobile-menu">
+        <ul>
+        </ul>
+        <div class="mm-navbtn-names">
+            <div class="mm-closebtn">
+                Close
+                <div class="tt-icon">
+                    <i></i>
                 </div>
             </div>
-        </nav>
+            <div class="mm-backbtn">Back</div>
+        </div>
+    </nav>
+    <header id="tt-header">
+        <div class="container">
+            <div class="row tt-row no-gutters">
+                <div class="col-auto">
+                    <!-- toggle mobile menu -->
+                    <a class="toggle-mobile-menu" href="#">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </a>
+                    <!-- /toggle mobile menu -->
+                    <!-- logo -->
+                    <div class="tt-logo">
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                    <!-- /logo -->
+                    <!-- desctop menu -->
+                    <div class="tt-desktop-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="page-categories.html"><span>Categories</span></a></li>
+                                <li><a href="page-tabs.html"><span>Trending</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- /desctop menu -->
+                    <!-- 
+                    <div class="tt-search">
+                       
+                        <button class="tt-search-toggle" data-toggle="modal" data-target="#modalAdvancedSearch">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                     
+                        <form class="search-wrapper">
+                            <div class="search-form">
+                                <input type="text" class="tt-search__input" placeholder="Search">
+                                <button class="tt-search__btn" type="submit">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                                <button class="tt-search__close">
+                                    <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                            <div class="search-results">
+                                <div class="tt-search-scroll">
+                                    <ul>
+                                        <li>
+                                            <a href="page-single-topic.html">
+                                                <h6 class="tt-title">Rdr2 secret easter eggs</h6>
+                                                <div class="tt-description">
+                                                    Here’s what I’ve found in Red Dead Redem..
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="page-single-topic.html">
+                                                <h6 class="tt-title">Top 10 easter eggs in Red Dead Rede..</h6>
+                                                <div class="tt-description">
+                                                    You can find these easter eggs in Red Dea..
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="page-single-topic.html">
+                                                <h6 class="tt-title">Red Dead Redemtion: Arthur Morgan..</h6>
+                                                <div class="tt-description">
+                                                    Here’s what I’ve found in Red Dead Redem..
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="page-single-topic.html">
+                                                <h6 class="tt-title">Rdr2 secret easter eggs</h6>
+                                                <div class="tt-description">
+                                                    Here’s what I’ve found in Red Dead Redem..
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="page-single-topic.html">
+                                                <h6 class="tt-title">Top 10 easter eggs in Red Dead Rede..</h6>
+                                                <div class="tt-description">
+                                                    You can find these easter eggs in Red Dea..
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="page-single-topic.html">
+                                                <h6 class="tt-title">Red Dead Redemtion: Arthur Morgan..</h6>
+                                                <div class="tt-description">
+                                                    Here’s what I’ve found in Red Dead Redem..
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="tt-view-all" data-toggle="modal" data-target="#modalAdvancedSearch">Advanced Search</button>
+                            </div>
+                        </form>
+                    </div>
+                    -->
+                </div>
+                <div class="col-auto ml-auto">
+                    <div class="tt-account-btn">
+                        <a asp-controller="Auth" asp-action="Login" class="btn btn-primary">Log in</a>
+                        <a asp-controller="Auth" asp-action="Signup" class="btn btn-secondary">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -41,6 +146,8 @@
             &copy; 2023 - DeveloperHub - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
+    <script src="~/js/bundle.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

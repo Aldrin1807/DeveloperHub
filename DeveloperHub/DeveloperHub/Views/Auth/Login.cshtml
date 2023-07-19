@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using DeveloperHub.Data.DTOs;
+
+@model Login
+@{
+}
+<div class="container">
+    <div class="tt-loginpages-wrapper">
+        <div class="tt-loginpages">
+            <a href="index.html" class="tt-block-title">
+                <img src="images/logo.png" alt="">
+                <div class="tt-title">
+                    Welcome to DeveloperHub
+                </div>
+                <div class="tt-description">
+                    Log into your account to unlock true power of community.
+                </div>
+            </a>
+            <form class="form-default">
+                <div class="form-group">
+                    <label asp-for="Username_or_Email">Username or Email</label>
+                    <input asp-for="Username_or_Email" type="text" name="name" class="form-control" id="loginUserName" placeholder="azyrusmax">
+                    <span asp-validation-for="Username_or_Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password">Password</label>
+                    <input asp-for="Password" type="password" name="name" class="form-control" id="loginUserPassword" placeholder="************">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <a href="#" class="btn btn-secondary btn-block" type="submit">Log in</a>
+                </div>
+                <p>Don’t have an account? <a asp-controller="Auth" asp-action="Signup" class="tt-underline">Signup here</a></p>
+                <div class="tt-notes">
+                    By Logging in, signing in or continuing, I agree to
+                    DeveloperHub’s <a href="#" class="tt-underline">Terms of Use</a> and <a href="#" class="tt-underline">Privacy Policy.</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
