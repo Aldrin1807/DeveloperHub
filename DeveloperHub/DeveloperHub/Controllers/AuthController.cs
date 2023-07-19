@@ -46,15 +46,17 @@ namespace DeveloperHub.Controllers
                 return View(register);
             }
             var isRegistered = await _userManager.FindByEmailAsync(register.Email);
-            if(isRegistered != null)
+            var isRegistered2 = await _userManager.FindByNameAsync(register.Username);
+            if(isRegistered != null || isRegistered2!=null)
             {
-                TempData["Error"] = "User is already registered";
+                TempData["Error"] = "User with this email or username is already registered";
                 return View(register);
             }
 
             await CreateRoleIfNotExists(Roles.Admin);
             await CreateRoleIfNotExists(Roles.User);
 
+          
             var user = new ApplicationUser
             {
                 UserName = register.Username,
