@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity;
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -9,6 +10,8 @@
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="~/DeveloperHub.styles.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 </head>
 <body>
     <!-- tt-mobile menu -->
@@ -36,102 +39,42 @@
                     <!-- /toggle mobile menu -->
                     <!-- logo -->
                     <div class="tt-logo">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a asp-controller="Home" asp-action="Index"><img src="http://127.0.0.1:5500/images/logo.png" alt=""></a>
                     </div>
                     <!-- /logo -->
                     <!-- desctop menu -->
                     <div class="tt-desktop-menu">
                         <nav>
                             <ul>
-                                <li><a href="page-categories.html"><span>Categories</span></a></li>
-                                <li><a href="page-tabs.html"><span>Trending</span></a></li>
+                                <li><a asp-controller="Home" asp-action="Index"><span>Categories</span></a></li>
+                                <li><a asp-controller="Home" asp-action="Index"><span>Trending</span></a></li>
                             </ul>
                         </nav>
                     </div>
-                    <!-- /desctop menu -->
-                    <!-- 
-                    <div class="tt-search">
-                       
-                        <button class="tt-search-toggle" data-toggle="modal" data-target="#modalAdvancedSearch">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                     
-                        <form class="search-wrapper">
-                            <div class="search-form">
-                                <input type="text" class="tt-search__input" placeholder="Search">
-                                <button class="tt-search__btn" type="submit">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </button>
-                                <button class="tt-search__close">
-                                    <i class="fa fa-times-circle-o" aria-hidden="true"></i>
-                                </button>
-                            </div>
-                            <div class="search-results">
-                                <div class="tt-search-scroll">
-                                    <ul>
-                                        <li>
-                                            <a href="page-single-topic.html">
-                                                <h6 class="tt-title">Rdr2 secret easter eggs</h6>
-                                                <div class="tt-description">
-                                                    Here’s what I’ve found in Red Dead Redem..
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="page-single-topic.html">
-                                                <h6 class="tt-title">Top 10 easter eggs in Red Dead Rede..</h6>
-                                                <div class="tt-description">
-                                                    You can find these easter eggs in Red Dea..
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="page-single-topic.html">
-                                                <h6 class="tt-title">Red Dead Redemtion: Arthur Morgan..</h6>
-                                                <div class="tt-description">
-                                                    Here’s what I’ve found in Red Dead Redem..
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="page-single-topic.html">
-                                                <h6 class="tt-title">Rdr2 secret easter eggs</h6>
-                                                <div class="tt-description">
-                                                    Here’s what I’ve found in Red Dead Redem..
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="page-single-topic.html">
-                                                <h6 class="tt-title">Top 10 easter eggs in Red Dead Rede..</h6>
-                                                <div class="tt-description">
-                                                    You can find these easter eggs in Red Dea..
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="page-single-topic.html">
-                                                <h6 class="tt-title">Red Dead Redemtion: Arthur Morgan..</h6>
-                                                <div class="tt-description">
-                                                    Here’s what I’ve found in Red Dead Redem..
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <button type="button" class="tt-view-all" data-toggle="modal" data-target="#modalAdvancedSearch">Advanced Search</button>
-                            </div>
-                        </form>
-                    </div>
-                    -->
                 </div>
                 <div class="col-auto ml-auto">
-                    <div class="tt-account-btn">
-                        <a asp-controller="Auth" asp-action="Login" class="btn btn-primary">Log in</a>
-                        <a asp-controller="Auth" asp-action="Signup" class="btn btn-secondary">Sign up</a>
-                    </div>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                         
+                            <button class="btn btn-outline-success" type="button" aria-expanded="false">
+                                <i class="bi bi-person-badge"></i> @User.Identity.Name
+                            </button>
+
+                        <span style="padding: 5px;"></span>
+                        <form asp-controller="Auth" asp-action="Logout">
+                            <button class="btn btn-outline-danger my-2 my-sm-0">
+                                <i class="bi bi-box-arrow-in-right"></i> Log out
+                            </button>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="tt-account-btn">
+                            <a asp-controller="Auth" asp-action="Login" class="btn btn-primary">Log in</a>
+                            <a asp-controller="Auth" asp-action="Signup" class="btn btn-secondary">Sign up</a>
+                        </div>
+                    }
                 </div>
-            </div>
         </div>
     </header>
 
@@ -155,7 +98,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation/1.19.3/jquery.validate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
 
-<script src="~/js/jquery.mmenu.all.min.js"></script>
+    <script src="~/js/jquery.mmenu.all.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
