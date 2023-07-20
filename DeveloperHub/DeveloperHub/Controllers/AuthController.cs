@@ -47,6 +47,17 @@ namespace DeveloperHub.Controllers
                 TempData["Error"] = "User with this username or email does not exist";
                 return View(login);
             }
+            var checkPassword = await _userManager.CheckPasswordAsync(user, login.Password);
+            if (!checkPassword)
+            {
+                TempData["Error"] = "Invalid password";
+                return View(login);
+            }
+            var result = await _signInManager.PasswordSignInAsync(user, login.Password, false, false);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View(login);
         }
 
