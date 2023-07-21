@@ -10,7 +10,7 @@ namespace DeveloperHub
         {
         }
 
-        
 
+        public DbSet<Topic> Topics { get; set; }
     }
 }
