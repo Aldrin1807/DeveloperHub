@@ -4,5 +4,6 @@ namespace DeveloperHub.Models
 {
     public class ApplicationUser:IdentityUser
     {
+
     }
 }

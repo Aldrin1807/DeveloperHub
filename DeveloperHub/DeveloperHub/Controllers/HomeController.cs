@@ -1,16 +1,24 @@
-﻿using DeveloperHub.Models;
+﻿using DeveloperHub.Data.DTOs;
+using DeveloperHub.Data.Services;
+using DeveloperHub.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace DeveloperHub.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+      
+        private readonly AppDbContext _context;
+        private readonly TopicService _service;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(AppDbContext context,TopicService service)
         {
-            _logger = logger;
+            _context = context;
+            _service = service;
         }
 
         public IActionResult Index()
@@ -18,15 +26,28 @@ namespace DeveloperHub.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+
+        [Authorize]
+        public async Task<IActionResult> Create()
         {
+            var categorys =await _context.Categories.ToListAsync();
+
+            ViewBag.Categories = new SelectList(categorys, "Id", "Name");
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+
+        [HttpPost]
+        public async Task<IActionResult> Create(TopicDTO topic)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            if (!ModelState.IsValid)
+            {
+                var categorys = await _context.Categories.ToListAsync();
+                ViewBag.Categories = new SelectList(categorys, "Id", "Name");
+                return View(topic);
+            }
+          await _service.Create(topic);
+          return RedirectToAction(nameof(Index));
         }
     }
 }

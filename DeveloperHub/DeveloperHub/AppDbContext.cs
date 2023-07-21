@@ -12,5 +12,7 @@ namespace DeveloperHub
 
 
         public DbSet<Topic> Topics { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
     }
 }

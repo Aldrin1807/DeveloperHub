@@ -1,3 +1,4 @@
+using DeveloperHub.Data.Services;
 using DeveloperHub.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
@@ -14,6 +15,8 @@ namespace DeveloperHub
             builder.Services.AddDbContext<AppDbContext>(options =>
                            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
+
+            builder.Services.AddTransient<TopicService>();
 
 
             builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
@@ -32,12 +35,16 @@ namespace DeveloperHub
           .AddEntityFrameworkStores<AppDbContext>()
           .AddDefaultTokenProviders();
 
+
+
             builder.Services.AddMemoryCache();
             builder.Services.AddSession();
             builder.Services.AddAuthentication(options =>
             {
                 options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+
             });
+
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

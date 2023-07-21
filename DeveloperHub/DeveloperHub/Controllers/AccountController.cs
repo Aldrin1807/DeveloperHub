@@ -7,7 +7,7 @@ using Microsoft.Win32;
 
 namespace DeveloperHub.Controllers
 {
-    public class AuthController : Controller
+    public class AccountController : Controller
     {
 
         private readonly AppDbContext _context;
@@ -16,7 +16,7 @@ namespace DeveloperHub.Controllers
         private readonly RoleManager<IdentityRole> _roleManager;
 
 
-        public AuthController(UserManager<ApplicationUser> userManager,
+        public AccountController(UserManager<ApplicationUser> userManager,
                        SignInManager<ApplicationUser> signInManager, AppDbContext context, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
