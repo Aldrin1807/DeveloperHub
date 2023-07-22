@@ -12,6 +12,9 @@
         public Category Category { get; set; }
 
 
+        public string DateTime { get;set; }
+
+
 
     }
 }

@@ -20,6 +20,7 @@ namespace DeveloperHub.Data.Services
                 Description = topic.Description,
                 CategoryID = topic.CategoryID,
                 UserID = topic.UserID,
+                DateTime = DateTime.Now.ToString("dd MMM yyyy HH:mm")
             };
 
             await _context.Topics.AddAsync(ntopic);

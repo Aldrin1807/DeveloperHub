@@ -23,7 +23,11 @@ namespace DeveloperHub.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var topics = _context.Topics
+                .Include(x => x.Category) 
+                .Include(x => x.ApplicationUser) 
+                .ToList();
+            return View(topics);
         }
 
 
