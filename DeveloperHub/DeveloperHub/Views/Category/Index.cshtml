@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Categories";
+}
+@model IEnumerable<Category>
+<main id="tt-pageContent" class="tt-offset-small">
+    <div class="container">
+        <div class="tt-tab-wrapper">
+            <div class="tab-content">
+                <div class="tab-pane show active" id="tt-tab-06" role="tabpanel">
+                    <div class="tt-wrapper-inner">
+                        <div class="tt-categories-list d-flex flex-wrap">
+
+                
+                                <!-- Use d-inline-block or d-inline-flex -->
+                                @foreach (var item in Model)
+                                {
+                                    <div class="tt-item">
+                                        <div class="tt-item-header">
+                                            <ul class="tt-list-badge">
+                                                <li><a href="#"><span class="tt-color01 tt-badge">@item.Name</span></a></li>
+                                            </ul>
+                                        <h6 class="tt-title"><a href="#">Topics - @item.topicCount</a></h6>
+                                        </div>
+                                        <div class="tt-item-layout">
+                                            <div class="innerwrapper">
+                                                Lets discuss about what's happening around the @item.Name world.
+                                            </div>
+                                            <a href="#" class="tt-btn-icon">
+                                                <i class="tt-icon"><svg><use xlink:href="#icon-favorite"></use></svg></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
