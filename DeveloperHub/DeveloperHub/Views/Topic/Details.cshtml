@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Details";
+}
+@model Topic
+<main id="tt-pageContent">
+    <div class="container">
+        <div class="tt-single-topic-list">
+            <div class="tt-item">
+                <div class="tt-single-topic">
+                    <div class="tt-item-header">
+                        <div class="tt-item-info info-top">
+                            <div class="tt-avatar-icon">
+                                <i class="tt-icon"><svg><use xlink:href="#icon-ava-d"></use></svg></i>
+                            </div>
+                            <div class="tt-avatar-title">
+                                <a href="#">@Model.ApplicationUser.UserName</a>
+                            </div>
+                            <a href="#" class="tt-info-time">
+                                <i class="tt-icon"><svg><use xlink:href="#icon-time"></use></svg></i>@Model.DateTime
+                            </a>
+                        </div>
+                       
+                        <h3 class="tt-item-title">
+                            <a href="#">@Model.Title</a>
+                        </h3>
+                        <div class="tt-item-tag">
+                            <ul class="tt-list-badge">
+                                <li><a href="#"><span class="tt-color03 tt-badge">@Model.Category.Name</span></a></li>
+                            </ul>
+                        </div>
+                       
+                    </div>
+                    <div class="tt-item-description">
+                      
+                        <p>
+                            @Model.Description
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

@@ -8,6 +8,19 @@
     <div class="container">
         <div class="tt-topic-list">
 
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <div class="tt-item tt-item-popup" style="margin-top:2rem;margin-bottom:2rem">
+                    <div class="tt-col-message">
+                        Looks like you are new here. Register for free, learn and contribute.
+                    </div>
+                    <div class="tt-col-btn">
+                        <a asp-controller="Account" asp-action="Login" type="button" class="btn btn-primary">Log in</a>
+                        <a asp-controller="Account" asp-action="Signup" type="button" class="btn btn-secondary">Sign up</a>
+                    </div>
+                </div>
+            }
+
             <div class="tt-list-header">
                 <div class="tt-col-topic">Topic</div>
                 <div class="tt-col-category">Category</div>
@@ -16,15 +29,17 @@
                 <div class="tt-col-value">Posted at</div>
             </div>
 
+           
+
             @foreach(var item in Model){
 
-            <div class="tt-item tt-itemselect">
+            <div class="tt-item">
                 <div class="tt-col-avatar">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdSAIfVWemaen5arzKIXimhgXhgEFMs9_UrQ&usqp=CAU" style="width:5rem;" />
                 </div>
                 <div class="tt-col-description">
                     <h6 class="tt-title">
-                        <a>
+                        <a asp-controller="Topic" asp-action="Details" asp-route-id="@item.Id">
                             @item.Title
                         </a>
                     </h6>
