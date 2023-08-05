@@ -26,5 +26,8 @@ namespace DeveloperHub.Data.Services
             await _context.Topics.AddAsync(ntopic);
             await _context.SaveChangesAsync();
         }
+
+
+        
     }
 }

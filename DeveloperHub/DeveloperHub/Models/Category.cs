@@ -7,6 +7,7 @@ namespace DeveloperHub.Models
         public int Id { get; set; }
         public string Name { get; set; }
 
+
         [NotMapped]
         public int topicCount { get; set; }
 
